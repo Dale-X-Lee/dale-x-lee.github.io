@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Northern Weekdays # blog_name will be displayed in your blog page
-blog_description: A place for posting my notes and other ideas. Its name comes from an old newspaper <i>Southern Weekly</i> in China.
+blog_description: A place for posting my notes and some (math-irrelated) ideas. Some posts might be in Chinese. The name of the blog comes from an old newspaper <i>Southern Weekly</i> in China.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -186,11 +186,14 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
+  # 下面是我设置不可见的文件
+  - _pages/news.md
+  - _pages/projects.md
+  - _pages/publications.md
 keep_files:
   - CNAME
   - .nojekyll

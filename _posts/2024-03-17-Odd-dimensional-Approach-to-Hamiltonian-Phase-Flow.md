@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \"Odd-dimensional\" Approach to Hamiltonian Phase Flow
+title: '"Odd-dimensional" Approach to Hamiltonian Phase Flow'
 date: 2024-03-17 00:53:16
 description: This is a short note on the chapter 9 in the book <i>Mathematical Methods of Classical Mechanics</i> by Arnold.
 tags:

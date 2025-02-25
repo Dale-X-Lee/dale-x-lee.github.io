@@ -1,6 +1,13 @@
-# 有界算子无法实现典则交换关系(C.C.R.)
-
-[toc]
+---
+layout: post
+title: Bounded Operators Can Not Satisfy Canonical Commutative Relation.md(In Chinese)
+date: 2024-06-11 14:05:16
+description: The proof of the fact that two bounded operators can not satisfy the C.C.R.
+tags:
+categories: sample-posts
+toc:
+  beginning: true
+---
 
 这篇的目的是记录下面的定理和它的证明：
 

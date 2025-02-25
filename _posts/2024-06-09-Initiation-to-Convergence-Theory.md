@@ -1,7 +1,13 @@
-# 从极限到拓扑——收敛理论
-
-[toc]
-
+---
+layout: post
+title: Initiation to Convergence Theory(In Chinese)
+date: 2024-06-09 20:49:16
+description: A very brief introduction to notions in convergence theory.
+tags:
+categories: sample-posts
+toc:
+  beginning: true
+---
 ## 引入
 
 考虑下面的例子。

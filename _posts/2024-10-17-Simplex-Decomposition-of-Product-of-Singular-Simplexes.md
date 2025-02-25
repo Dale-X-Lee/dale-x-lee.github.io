@@ -1,7 +1,13 @@
-# 奇异单形的乘积的单形剖分
-
-[toc]
-
+---
+layout: post
+title: Simplex Decomposition of Product of Singular Simplexes(In Chinese)
+date: 2024-10-17 23:57:16
+description: Construct a concrete simplex decomposition of product of singular simplexes with an intuitive proof.
+tags:
+categories: sample-posts
+toc:
+  beginning: true
+---
 ## 1.引入
 
 在同调论里，一个很自然的问题是，对于两个拓扑空间$X,Y$，它们的乘积$X\times Y$的奇异同调群如何用各自的奇异同调群表示。

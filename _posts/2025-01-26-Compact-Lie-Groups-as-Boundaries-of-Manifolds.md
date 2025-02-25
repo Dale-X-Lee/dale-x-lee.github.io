@@ -1,7 +1,13 @@
-# 紧李群作为流形的边界
-
-[toc]
-
+---
+layout: post
+title: Compact Lie Groups as Boundaries of Manifolds(In Chinese)
+date: 2025-01-26 00:58:16
+description: A constructive proof that every Lie group is the boundary of certain smooth manifold.
+tags:
+categories: sample-posts
+toc:
+  beginning: true
+---
 我们在这篇笔记里给出一个简单的构造：对任意一个紧李群$G$，我们给出一个具体的带边紧流形$M$，使得它的边界$\partial M$微分同胚于$G$.
 
 ## 流形的构造

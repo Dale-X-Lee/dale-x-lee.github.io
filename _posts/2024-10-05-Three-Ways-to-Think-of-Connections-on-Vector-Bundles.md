@@ -1,7 +1,13 @@
-# 向量丛上的联络的三种理解方式
-
-[toc]
-
+---
+layout: post
+title: Three Ways to Think of Connections on Vector Bundles(In Chinese)
+date: 2024-10-05 21:30:16
+description: To record three usual ways to think of connections on vecter bundles.
+tags:
+categories: sample-posts
+toc:
+  beginning: true
+---
 ## 摘要
 
 向量丛上的联络（或协变导数）是几何学里一个基本的概念。这篇文章的主要目的是罗列理解联络的三种方式：视作局部的联络1-形式、视作平行移动、视作向量丛切空间的直和分解。并叙述主丛上的联络如何与这三种看法关联起来。本文不适合用作初次学习联络的资料，更适合已经了解过联络定义和基本性质的读者。

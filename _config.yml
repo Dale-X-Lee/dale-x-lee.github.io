@@ -143,15 +143,15 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-# 下面的代码被注释是为了删掉news和projects
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /:collection/:title/
-  # projects:
-  #   output: true
-  #   permalink: /:collection/:title/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
+# 上面的代码被注释是为了删掉news和projects
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -187,6 +187,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/

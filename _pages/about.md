@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Email: hanhancyz@stu.pku.edu.cn
+subtitle: "Email: hanhancyz@stu.pku.edu.cn"
 
 profile:
   align: right

@@ -148,9 +148,9 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
-    output: true
-    permalink: /:collection/:title/
+  # projects:
+  #   output: true
+  #   permalink: /:collection/:title/
 # 上面的代码被注释是为了删掉news和projects
 
 # -----------------------------------------------------------------------------
@@ -195,6 +195,7 @@ exclude:
   # 自己排除的一些文件：
   - _pages/profile.md
   - _pages/dropdown.md
+  - _pages/projects.md
 keep_files:
   - CNAME
   - .nojekyll

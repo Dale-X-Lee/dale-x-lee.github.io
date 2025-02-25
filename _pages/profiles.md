@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: members of the lab or group
 nav: false
-nav_order: 7
+nav_order: # 因为页面被删去，所以删掉上面的属性，后面添加页面时记得加上
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

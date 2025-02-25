@@ -27,9 +27,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I'am currently a graduated student in [Beijing International Center for Mathematical Research(BICMR)](https://bicmr.pku.edu.cn/), Peking University.
+I am currently a graduated student in [Beijing International Center for Mathematical Research(BICMR)](https://bicmr.pku.edu.cn/), Peking University.
 
-And I am advised by [advisvor's name](https://www.google.com.hk/), studying in ...
+And I am advised by [advisvor&#39;s name](https://www.google.com.hk/), studying in ...
 
 ## Interests
 

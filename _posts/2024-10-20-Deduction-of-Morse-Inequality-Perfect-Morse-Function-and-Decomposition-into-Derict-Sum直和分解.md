@@ -2,7 +2,7 @@
 layout: post
 title: Deduction of Morse Inequality, Perfect Morse Function and Decomposition into Derict Sum(In Chinese)
 date: 2024-10-20 14:30:16
-description: Some notes when first learning Morse theory.
+description: Some notes when learning Morse theory for the second time.
 tags:
 categories: sample-posts
 toc:

@@ -105,7 +105,7 @@ ninja.data = [{
       },
     },{id: "post-quot-odd-dimensional-quot-approach-to-hamiltonian-phase-flow",
       
-        title: "\&quot;Odd-dimensional\&quot; Approach to Hamiltonian Phase Flow",
+        title: "&quot;Odd-dimensional&quot; Approach to Hamiltonian Phase Flow",
       
       description: "This is a short note on the chapter 9 in the book Mathematical Methods of Classical Mechanics by Arnold.",
       section: "Posts",

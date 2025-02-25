@@ -193,7 +193,6 @@ exclude:
   - readme_preview/
   - vendor
   - _news/announcement_*.md
-  - _pages/profile.md
   - _pages/dropdown.md
   - _pages/projects.md
   # 以上四个是自己排除的一些文件：

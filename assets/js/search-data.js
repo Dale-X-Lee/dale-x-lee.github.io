@@ -37,7 +37,84 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-compact-lie-groups-as-boundaries-of-manifolds-in-chinese",
+      
+        title: "Compact Lie Groups as Boundaries of Manifolds(In Chinese)",
+      
+      description: "A constructive proof that every Lie group is the boundary of certain smooth manifold.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Compact-Lie-Groups-as-Boundaries-of-Manifolds/";
+        
+      },
+    },{id: "post-deduction-of-morse-inequality-perfect-morse-function-and-decomposition-into-derict-sum-in-chinese",
+      
+        title: "Deduction of Morse Inequality, Perfect Morse Function and Decomposition into Derict Sum(In Chinese)...",
+      
+      description: "Some notes when first learning Morse theory.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Deduction-of-Morse-Inequality-Perfect-Morse-Function-and-Decomposition-into-Derict-Sum%E7%9B%B4%E5%92%8C%E5%88%86%E8%A7%A3/";
+        
+      },
+    },{id: "post-simplex-decomposition-of-product-of-singular-simplexes-in-chinese",
+      
+        title: "Simplex Decomposition of Product of Singular Simplexes(In Chinese)",
+      
+      description: "Construct a concrete simplex decomposition of product of singular simplexes with an intuitive proof.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Simplex-Decomposition-of-Product-of-Singular-Simplexes/";
+        
+      },
+    },{id: "post-three-ways-to-think-of-connections-on-vector-bundles-in-chinese",
+      
+        title: "Three Ways to Think of Connections on Vector Bundles(In Chinese)",
+      
+      description: "To record three usual ways to think of connections on vecter bundles.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Three-Ways-to-Think-of-Connections-on-Vector-Bundles/";
+        
+      },
+    },{id: "post-bounded-operators-can-not-satisfy-canonical-commutative-relation-md-in-chinese",
+      
+        title: "Bounded Operators Can Not Satisfy Canonical Commutative Relation.md(In Chinese)",
+      
+      description: "The proof of the fact that two bounded operators can not satisfy the C.C.R.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Bounded-Operators-Can-Not-Satisfy-Canonical-Commutative-Relation/";
+        
+      },
+    },{id: "post-initiation-to-convergence-theory-in-chinese",
+      
+        title: "Initiation to Convergence Theory(In Chinese)",
+      
+      description: "A very brief introduction to notions in convergence theory.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Initiation-to-Convergence-Theory/";
+        
+      },
+    },{id: "post-quot-odd-dimensional-quot-approach-to-hamiltonian-phase-flow",
+      
+        title: "\&quot;Odd-dimensional\&quot; Approach to Hamiltonian Phase Flow",
+      
+      description: "This is a short note on the chapter 9 in the book Mathematical Methods of Classical Mechanics by Arnold.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Odd-dimensional-Approach-to-Hamiltonian-Phase-Flow/";
+        
+      },
+    },{id: "post-a-post-with-formatting-and-links",
       
         title: "a post with formatting and links",
       

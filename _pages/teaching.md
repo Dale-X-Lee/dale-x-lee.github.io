@@ -6,6 +6,18 @@ description: The following are the courses which I taught or in which I served a
 nav: true
 nav_order: 4
 ---
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## **Sept. 2024 - Dec. 2024 (as teaching assistant): Advanced Mathematics A (I) in Peking University**
 
-Organize your courses by years, topics, or universities, however you like!
+(add course description here: content, time schedule, etc.)
+
+My job includes conducting recitation sessions, collecting and grading assignments, proctoring the exams, and grading the exam papers.
+
+The following are supplementary materials that I delivered in the recitation session.(to be continued...)
+
+## **Feb. 2025 - Jun. 2025 (as teaching assistant): Advanced Mathematics A (II) in Peking University**
+
+(add course description here: content, time schedule, etc.)
+
+My job includes conducting recitation sessions, collecting and grading assignments, proctoring the exams, and grading the exam papers.
+
+The following are supplementary materials that I delivered in the recitation session.(to be continued...)

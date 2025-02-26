@@ -52,7 +52,7 @@ ninja.data = [{
       
         title: "Deduction of Morse Inequality, Perfect Morse Function and Decomposition into Derict Sum(In Chinese)...",
       
-      description: "Some notes when first learning Morse theory.",
+      description: "Some notes when learning Morse theory for the second time.",
       section: "Posts",
       handler: () => {
         
@@ -81,9 +81,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/Three-Ways-to-Think-of-Connections-on-Vector-Bundles/";
         
       },
-    },{id: "post-bounded-operators-can-not-satisfy-canonical-commutative-relation-md-in-chinese",
+    },{id: "post-bounded-operators-can-not-satisfy-canonical-commutative-relation-in-chinese",
       
-        title: "Bounded Operators Can Not Satisfy Canonical Commutative Relation.md(In Chinese)",
+        title: "Bounded Operators Can Not Satisfy Canonical Commutative Relation(In Chinese)",
       
       description: "The proof of the fact that two bounded operators can not satisfy the C.C.R.",
       section: "Posts",
@@ -112,17 +112,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/Odd-dimensional-Approach-to-Hamiltonian-Phase-Flow/";
-        
-      },
-    },{id: "post-a-post-with-formatting-and-links",
-      
-        title: "a post with formatting and links",
-      
-      description: "march &amp; april, looking forward to summer",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/temp-post/";
         
       },
     },{

@@ -6,6 +6,13 @@ description: The following are the courses which I taught or in which I served a
 nav: true
 nav_order: 4
 ---
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+## **Sept. 2024 - Dec. 2024 (as teaching assistant): Advanced Mathematics A (I)**
+
+I am in charge of ....
+
+The following are supplementary materials that I delivered in the ....
+
+## **Feb. 2025 - Jun. 2025 (as teaching assistant): Advanced Mathematics A (II)**
+
+I am in charge of ....

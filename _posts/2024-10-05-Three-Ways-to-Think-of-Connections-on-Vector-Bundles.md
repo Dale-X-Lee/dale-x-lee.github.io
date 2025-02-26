@@ -95,7 +95,7 @@ $$
 \mathscr{P}_\gamma^{0 \to t}: E_{\gamma(0)} \rightarrow E_{\gamma(t)}
 $$
 
-这个映射被叫做沿着$\gamma$的平行移动。一般地，我们用同样的方法可以定义从$\gamma(a)$到$\gamma(b)$的平行移动$\mathscr{P}_\gamma^{a \to b}: E_{\gamma(a)} \rightarrow E_{\gamma(b)}$.
+这个映射被叫做沿着$\gamma$的平行移动。一般地，我们用同样的方法可以定义从$\gamma(a)$到$\gamma(b)$的平行移动$\mathscr{P}_{\gamma}^{a \to b}: E_{\gamma(a)} \rightarrow E_{\gamma(b)}$.
 
 平行移动的几何意义是相对直观的：它告诉了我们如何将一点处的纤维沿着一条曲线“不变地”移动到另一点处。事实上，$\nabla$能够被叫做“联络”的一个重要原因就是它定义的平行移动告诉了将不同点处的纤维联系了起来。
 
@@ -143,7 +143,7 @@ $$
 
 ## 2. 主丛和主丛上的联络
 
-引入主丛的一种方法是利用向量丛的结构群。对一个秩为$r$的向量丛$\pi: E \rightarrow M$，在找了$M$的一组开覆盖$\{U_\alpha\}_{\alpha \in I}$，使得$E$限制在每个$U_\alpha$上有平凡化$\varphi_\alpha$之后，平凡化之间的转移映射给出了一组转移函数
+引入主丛的一种方法是利用向量丛的结构群。对一个秩为$r$的向量丛$\pi: E \rightarrow M$，在找了$M$的一组开覆盖$\{U_{\alpha}\}_{\alpha \in I}$，使得$E$限制在每个$U_{\alpha}$上有平凡化$\varphi_{\alpha}$之后，平凡化之间的转移映射给出了一组转移函数
 
 $$
 \{g_{\alpha\beta}: U_\alpha \cap U_\beta \rightarrow G \subset GL(r, \mathbb{R})\}_{\alpha, \beta \in I}
@@ -188,7 +188,7 @@ $$
 h \cdot (p, v) = (p\cdot h^{-1}, \rho_{h}v), \forall h \in G, p \in P, v \in V
 $$
 
-比如我们之前定义的$\mathrm{Fr}_G(E)$在$\mathbb{R}^r$，通过将$G$嵌入到$GL(r, \mathbb{R})$中，我们可以得到一个表示$\iota$，这时候我们的配丛$\mathrm{Fr}_G(E) \times_{\iota} \mathbb{R}^r$恰好同构于向量丛$E$.
+比如我们之前定义的$\mathrm{Fr}_{G}(E)$在$\mathbb{R}^r$，通过将$G$嵌入到$GL(r, \mathbb{R})$中，我们可以得到一个表示$\iota$，这时候我们的配丛$\mathrm{Fr}_{G}(E) \times_{\iota} \mathbb{R}^r$恰好同构于向量丛$E$.
 
 ### 2.1. 主丛上的联络
 
@@ -216,9 +216,9 @@ $$
 > \mathcal{P}: TP \longrightarrow \ker \mathrm{D}\pi
 > $$
 >
-> 使得对任意的$g \in G$，有$g_* \circ \mathcal{P} = \mathcal{P} \circ g_*$. 这里$g_*$表示由$G$在$P$上的右作用诱导的$TP$上的右作用$g_*: TP \rightarrow TP$.
+> 使得对任意的$g \in G$，有$g_{*} \circ \mathcal{P} = \mathcal{P} \circ g_{*}$. 这里$g_{*}$表示由$G$在$P$上的右作用诱导的$TP$上的右作用$g_{*}: TP \rightarrow TP$.
 
-因为$g_*$给出了$G$在$P$的切丛$TP$上的左作用，这时候定义中的等式$g_* \circ \mathcal{P} = \mathcal{P} \circ g_*$相当于说，投影$\mathcal{P}$是$G$-等变的。所以联络的定义可以简短地叙述为：主丛上的联络是从它的切丛到它纤维的切丛的一个$G$-等变的投影。
+因为$g_{*}$给出了$G$在$P$的切丛$TP$上的左作用，这时候定义中的等式$g_{*} \circ \mathcal{P} = \mathcal{P} \circ g_{*}$相当于说，投影$\mathcal{P}$是$G$-等变的。所以联络的定义可以简短地叙述为：主丛上的联络是从它的切丛到它纤维的切丛的一个$G$-等变的投影。
 
 另外可以看出来，这一定义对应着向量丛上联络的第三种看法：将联络看作丛投影。我们接下来解释如何从主丛上的联络得到联络1-形式和主丛上的平行移动。
 
@@ -243,7 +243,7 @@ $$
 \omega_p := d_p^{-1}\circ\mathcal{P}_p: T_pP \longrightarrow \mathfrak{g}
 $$
 
-此外，由$\mathcal{P}$的性质可以得到联络1-形式的性质。$\mathcal{P}$是投影等价于对任意李代数中元素$u$，有$\omega_p(X_u) = u$. $\mathcal{P}$是$G$-等变的等价于$\omega$是$G$-等变的，也就是$(g^*\omega)_{p} = \mathrm{Ad}_{g^{-1}} \circ \omega_p$，其中$\mathrm{Ad}_g$是$G$在$\mathfrak{g}$上的伴随作用。这使得我们可以用联络1-形式给出联络的等价定义：
+此外，由$\mathcal{P}$的性质可以得到联络1-形式的性质。$\mathcal{P}$是投影等价于对任意李代数中元素$u$，有$\omega_{p}(X_u) = u$. $\mathcal{P}$是$G$-等变的等价于$\omega$是$G$-等变的，也就是$(g^{*}\omega)_{p} = \mathrm{Ad}_{g^{-1}} \circ \omega_{p}$，其中$\mathrm{Ad}_{g}$是$G$在$\mathfrak{g}$上的伴随作用。这使得我们可以用联络1-形式给出联络的等价定义：
 
 > **定义**：一个$G$-主丛$P$上的联络是$P$上一个李代数值的1-形式
 >
@@ -274,7 +274,7 @@ $$
 s^*\omega \in \Omega^1(M; \mathfrak{g})
 $$
 
-这被称作联络1-形式$\omega$在$U$上的局部表示。注意到$\omega$的局部表示依赖于截面$s$的选取，因此一般不能将$s^*\omega$粘接为某个全局1-形式$\tilde{\omega} \in \Omega^1(M,\mathfrak{g})$. 我们后面会看到，$s^*\omega$对应着向量丛的联络1-形式。
+这被称作联络1-形式$\omega$在$U$上的局部表示。注意到$\omega$的局部表示依赖于截面$s$的选取，因此一般不能将$s^{*}\omega$粘接为某个全局1-形式$\tilde{\omega} \in \Omega^{1}(M,\mathfrak{g})$. 我们后面会看到，$s^{*}\omega$对应着向量丛的联络1-形式。
 
 此外利用拉回的自然性我们可以得到局部上曲率的计算方式：
 

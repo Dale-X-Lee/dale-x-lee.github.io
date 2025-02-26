@@ -186,7 +186,7 @@ $$
 \partial^{\otimes}\colon \sigma^p \otimes \tau^q \longmapsto (\partial \sigma^p) \otimes \tau^q + (-1)^{p}\sigma^p\otimes(\partial \tau^q)
 $$
 
-另外很容易注意到的是，$m$是自然的，也就是，如果将$S_*(\cdot)\otimes S_*(\cdot)$与$S_*(\cdot \times \cdot)$视作两个函子，那么$m$实际上给出了它们之间的一个自然变换。
+另外很容易注意到的是，$m$是自然的，也就是，如果将$S_{*}(\cdot)\otimes S_{*}(\cdot)$与$S_{*}(\cdot \times \cdot)$视作两个函子，那么$m$实际上给出了它们之间的一个自然变换。
 
 那么这时候我们就知道：
 

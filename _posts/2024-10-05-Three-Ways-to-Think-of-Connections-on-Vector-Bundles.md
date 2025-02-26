@@ -144,23 +144,31 @@ $$
 ## 2. 主丛和主丛上的联络
 
 引入主丛的一种方法是利用向量丛的结构群。对一个秩为$r$的向量丛$\pi: E \rightarrow M$，在找了$M$的一组开覆盖$\{U_\alpha\}_{\alpha \in I}$，使得$E$限制在每个$U_\alpha$上有平凡化$\varphi_\alpha$之后，平凡化之间的转移映射给出了一组转移函数
+
 $$
 \{g_{\alpha\beta}: U_\alpha \cap U_\beta \rightarrow G \subset GL(r, \mathbb{R})\}_{\alpha, \beta \in I}
 $$
+
 使得
+
 $$
 \varphi_{\alpha} \circ \varphi_{\beta}^{-1}(x, v) = (x, g_{\alpha\beta}(x)\cdot v), \forall x \in U_\alpha \cap U_\beta, v \in \mathbb{R}^r
 $$
+
 这里的群$G$就被称作向量丛$E$的结构群。
 
 转移函数告诉了我们，如何将一组平凡丛$\{U_{\alpha}\times \mathbb{R}^r\}_{\alpha \in I}$粘接成向量丛$E$，也就是我们有向量丛的同构：
+
 $$
 E \cong \left(\amalg_{\alpha \in I} U_\alpha \times \mathbb{R}^r\right)/(x, v) \sim (x, g_{\alpha\beta}(x)v)
 $$
+
 这也告诉我们，一个向量丛的转移函数实际上蕴含了这个向量丛的所有信息，因此有关向量丛的问题都可以视作有关转移函数和群的问题。这时候，我们定义：
+
 $$
 \mathrm{Fr}_G(E) = \left(\amalg_{\alpha \in I} U_\alpha \times G\right)/(x, h) \sim (x, g_{\alpha\beta}(x)\cdot h)
 $$
+
 这是一个在$M$上的、纤维为$G$的纤维丛，它蕴含着原本的向量丛$E$的所有信息，且从转移映射的角度来说，这个几何对象更加自然。
 
 我们定义的$\mathrm{Fr}_G(E)$是主丛的一个例子。一般的，我们有下面的定义：
@@ -169,13 +177,17 @@ $$
 这里一个没有那么严谨的地方是：$G$-主丛的纤维实际上不是$G$，而是所谓的[$G$-torsor](https://en.wikipedia.org/wiki/Principal_homogeneous_space)，或$G$-主齐性空间。一个李群$G$的主齐性空间和这里李群本身是微分同胚的，但$G$-主齐性空间上没有群结构，只有$G$的右作用。
 
 利用配丛的概念，我们可以从一个$G$-主丛构造出一个向量丛。假设在有了$G$-主丛$P$和群$G$在线性空间$V$上的一个表示$\rho: G \rightarrow GL(V)$之后，我们可以定义出$P$的配丛$P\times_{\rho}V$，它是一个以$V$为纤维的向量丛：
+
 $$
 P\times_{\rho}V := \left(P \times V\right)/G
 $$
+
 这里$G$通过下面的方式左作用在$P \times V$上：
+
 $$
 h \cdot (p, v) = (p\cdot h^{-1}, \rho_{h}v), \forall h \in G, p \in P, v \in V
 $$
+
 比如我们之前定义的$\mathrm{Fr}_G(E)$在$\mathbb{R}^r$，通过将$G$嵌入到$GL(r, \mathbb{R})$中，我们可以得到一个表示$\iota$，这时候我们的配丛$\mathrm{Fr}_G(E) \times_{\iota} \mathbb{R}^r$恰好同构于向量丛$E$.
 
 ### 2.1. 主丛上的联络
@@ -183,21 +195,27 @@ $$
 我们接下来给出主丛上联络的定义。
 
 > **定义**：一个$G$-主丛$\pi: P \rightarrow M$上的联络是$P$的切丛$TP$的一个子丛$H$，使得在$P$上每一点$p \in P_x$处，有直和分解
+>
 > $$
 > T_pP = T_p(P_x) \oplus H_p
 > $$
+>
 > 且$H$在$G$的右作用下不变。
 
 注意到，上面的直和分解实际上给出了在每一点$p \in P_x$处的投影映射
+
 $$
 \mathcal{P}_p: T_pP \rightarrow T_p(P_x) = \ker \mathrm{D}\pi_p
 $$
+
 因此，我们可以给出下面的等价定义：
 
 > **定义**：$G$-主丛$P$上的联络是一个向量丛的投影
+>
 > $$
 > \mathcal{P}: TP \longrightarrow \ker \mathrm{D}\pi
 > $$
+>
 > 使得对任意的$g \in G$，有$g_* \circ \mathcal{P} = \mathcal{P} \circ g_*$. 这里$g_*$表示由$G$在$P$上的右作用诱导的$TP$上的右作用$g_*: TP \rightarrow TP$.
 
 因为$g_*$给出了$G$在$P$的切丛$TP$上的左作用，这时候定义中的等式$g_* \circ \mathcal{P} = \mathcal{P} \circ g_*$相当于说，投影$\mathcal{P}$是$G$-等变的。所以联络的定义可以简短地叙述为：主丛上的联络是从它的切丛到它纤维的切丛的一个$G$-等变的投影。
@@ -209,44 +227,57 @@ $$
 从定义得到联络1-形式$\omega \in \Omega(P; \mathfrak{g})$是相对轻松的。我们只需要稍微修改一下投影$\mathcal{P}$的值域即可。
 
 注意到，每个纤维$P_x$是一个$G$-主齐性空间，所以纤维$P_x$上任意一点$p$处的切空间$T_p(P_x)$和$\mathfrak{g}$之间存在一个典则同构：
+
 $$
 \begin{aligned}
     d_p: \mathfrak{g} & \xrightarrow{\cong} T_p(P_x) \\
     u & \longmapsto X_u=\frac{\mathrm{d}}{\mathrm{d}t}\bigg|_{t = 0}p\cdot\exp(tu)\\
 \end{aligned}
 $$
+
 我个人更喜欢用另一种方式理解这一典则同构：$G$在每根纤维上的作用是传递的，意味着任意一根纤维上每个点的地位是对等的（比如任选一个点，都能以它为基点将这根纤维等同于$G$），每一点的切空间在相差一个$G$的作用的意义下是相同的，而容易看出一点处的切空间等同于$\mathfrak{g}$，因此我们可以构造这一典则同构。
 
 有了典则同构$d_p$之后，我们可以在每一点$p \in P_x$处定义李代数值的联络1-形式：
+
 $$
 \omega_p := d_p^{-1}\circ\mathcal{P}_p: T_pP \longrightarrow \mathfrak{g}
 $$
+
 此外，由$\mathcal{P}$的性质可以得到联络1-形式的性质。$\mathcal{P}$是投影等价于对任意李代数中元素$u$，有$\omega_p(X_u) = u$. $\mathcal{P}$是$G$-等变的等价于$\omega$是$G$-等变的，也就是$(g^*\omega)_{p} = \mathrm{Ad}_{g^{-1}} \circ \omega_p$，其中$\mathrm{Ad}_g$是$G$在$\mathfrak{g}$上的伴随作用。这使得我们可以用联络1-形式给出联络的等价定义：
 
 > **定义**：一个$G$-主丛$P$上的联络是$P$上一个李代数值的1-形式
+>
 > $$
 > \omega: TP \longrightarrow \mathfrak{g}
 > $$
+>
 > 使得对任意的$g \in G$和$u \in \mathfrak{g}$，有
 >
 > * $\omega(X_u) = u$
 > * $g^*\omega = \mathrm{Ad}_{g^{-1}}\circ \omega$
 
 在大部分时候，这一定义是更加常用的，因为$\omega$可以方便地参与到许多的运算中，而投影$\mathcal{P}$不能。比如类似向量丛的情形，我们可以用联络1-形式轻松地写出联络的曲率：
+
 $$
 \Omega = \mathrm{d}\omega + \frac{1}{2}[\omega, \omega]
 $$
+
 其中$[\omega, \eta]$被定义为
+
 $$
 [\omega, \eta](X, Y) = [\omega(X), \eta(Y)] - [\omega(Y), \eta(X)]
 $$
+
 在进入有关平行移动的讨论之前，我们说明一下联络1-形式的局部表示。选取底空间$M$中的一个开集$U$和$U$上的局部截面$s: U \rightarrow P$。这时我们可以得到$U$上的1-形式：
+
 $$
 s^*\omega \in \Omega^1(M; \mathfrak{g})
 $$
+
 这被称作联络1-形式$\omega$在$U$上的局部表示。注意到$\omega$的局部表示依赖于截面$s$的选取，因此一般不能将$s^*\omega$粘接为某个全局1-形式$\tilde{\omega} \in \Omega^1(M,\mathfrak{g})$. 我们后面会看到，$s^*\omega$对应着向量丛的联络1-形式。
 
 此外利用拉回的自然性我们可以得到局部上曲率的计算方式：
+
 $$
 s^*\Omega = \mathrm{d}(s^*\omega) + \frac{1}{2}[s^*\omega, s^*\omega]
 $$
@@ -256,9 +287,11 @@ $$
 利用联络$\mathcal{P}$也可以定义主丛上的平行移动。
 
 对底空间$M$上的曲线$\gamma: [a, b] \rightarrow M$，沿着$\gamma$的截面$s: [a, b] \rightarrow P$被称为平行于$\gamma$的截面，如果对任意的$t \in [a, b]$，有
+
 $$
 \mathcal{P}\bigl(\dot{s}(t)\bigr) = 0
 $$
+
 如果用联络1-形式来叙述的话，$s$与$\gamma$平行当且仅当对任意的$t$，有$\omega\bigl(\dot{s}(t)\bigr) = 0$.
 
 这里的平行可以和向量丛中的平行截面类似理解。切向量$\mathcal{P}(\dot{s}(t)) \in T_{s(t)}P_{\gamma(t)}$反映了截面$s$沿着纤维方向的变化量，因此起到了原先协变导数的作用。而这个量等于$0$就意味着截面$s$关于联络$\mathcal{P}$沿着纤维没有变化，因此可以看作平行于曲线$\gamma$.
@@ -266,62 +299,81 @@ $$
 在局部坐标上讨论的话，一个截面$s$平行于$\gamma$会等价于$s$的局部坐标满足某个一阶常微分方程，所以根据常微分方程的理论可以知道，在给定初值$s(a)$的情形下，存在唯一平行于$\gamma$的截面，且这个截面光滑地依赖于初值$s(a)$的选取。
 
 因此，在固定时间$t$，只改变初值的时候，我们会得到一个映射
+
 $$
 \mathscr{P}_{\gamma}^{0 \to t}: P_{\gamma(0)} \longrightarrow P_{\gamma(t)}
 $$
+
 一般地，我们会有$\mathscr{P}_{\gamma}^{a \to b}: P_{\gamma(a)} \rightarrow P_{\gamma(b)}$. 我们把这一映射叫做沿着$\gamma$的平行移动。
 
 一个值得注意的地方是，平行移动是保持$G$-torsor结构的，或者说平行移动作为映射是$G$-等变的。这可以从$\mathcal{P}$是$G$-等变的推出。此外，类似向量丛，我们从平行移动也可以重建出联络的信息。对$P$的切向量$X \in T_pP$，选取一个从$p \in P_x$出发，初速度为$X$的曲线$\tilde{\gamma}$，它在$M$上的投影是一条曲线$\gamma$. 这时候我们有关系式：
+
 $$
 \mathcal{P}(X) = \dot{s}(0)
 $$
+
 其中$s(t) = \mathscr{P}_{\gamma}^{t \to 0}\tilde{\gamma}(t)$是$P_x$上的曲线。
 
 ### 2.2. 从主丛的联络到配丛的联络
 
 这一节我们来解释主丛的联络和配丛的联络之间的关系。更严格地说，我们解释如何从主丛上的联络得到配丛上的联络。我们假设$\pi: P \rightarrow M$是一个$G$-主丛，其上的联络为$\omega \in \Omega^1(P; \mathfrak{g})$. $G$的一个表示$\rho: G \rightarrow GL(V)$给出了$P$的一个配丛
+
 $$
 \pi_E: E = P \times_{\rho} V \longrightarrow M
 $$
+
 我们将解释主丛上的联络如何给出配丛上的丛投影、平行移动和联络1-形式。并在附录中给出用平行移动定义和用联络1-形式定义的等价性。
 
 我们先看如何定义$E$上的丛投影。主丛$P$上的丛投影给出了切丛$TP$的子丛$HP$，这一子丛可以被自然地提升为$T(P\times V)$的子丛：
+
 $$
 p^*HP := \bigsqcup_{(p, v) \in P \times V} H_pP \oplus 0
 $$
+
 其中$p: P \times V \rightarrow P$是自然投影。又注意到商映射
+
 $$
 q: P \times V \longrightarrow P\times_{\rho}V
 $$
+
 的切映射将$T_{(p, v)}(P \times V)$映为$T_{[(p, v)]}E$，因此$p^*HP$也被映为了$TE$的一个子丛$HE$. 注意到$HP$在$G$作用下是不变的的，因此尽管$P \times V$中许多点会被映到了$E$上的一个点$[(p, v)]$，但这些点处的“水平丛”被映为$TE$的同一个子空间，因此$HE$是良定的。$HE$定义了一个丛投影
+
 $$
 \mathcal{P}_E: TE \longrightarrow \ker \pi_E
 $$
+
 利用这个丛投影就可以给出$E$上的联络。验证这是一个联络的办法是直接写出它的联络1-形式。我们略去具体的计算过程。
 
 另一个办法是利用平行移动。对任意一条曲线$\gamma: \mathbb{R} \rightarrow M$，它定义了$P$上的平行移动$\mathscr{P}_{\gamma}^{a \to b}$. 由此我们可以得到$P \times_{\rho} V$上的平行移动：
+
 $$
 \begin{matrix}
     \mathscr{P}_{\gamma, E}^{a \to b}: & E_{\gamma(a)} & \longrightarrow & T_{\gamma(b)}E \\
     & [(p, v)] & \longmapsto & [(\mathscr{P}_{\gamma}^{a \to b}(p), v)]
 \end{matrix}
 $$
+
 注意到平行移动$\mathscr{P}_{\gamma}^{a \to b}$是$G$-等变的，所以$\mathscr{P}_{\gamma, E}^{a \to b}$不依赖于代表元$(p, v)$的选取，是良定的。这时候我们可以定义$E$上的联络为：
+
 $$
 \nabla_{\dot{\gamma}(0)}X = \lim_{t \to 0} \frac{\mathscr{P}_{\gamma,E}^{t \to 0}X_{\gamma(t)}- X_{\gamma(0)}}{t}
 $$
 
 在不作具体计算的情况下，用联络1-形式定义$E$上的联络是最快的。在选取了$P$的一个局部截面$s: U \rightarrow P$之后，$s$给出了$E$的局部平凡化：
+
 $$
 \begin{matrix}
     \varphi: & E|_{U} & \longrightarrow & U \times V \\
     & [(s(x), v)] & \longmapsto & (x, v)
 \end{matrix}
 $$
+
 在这一平凡化下，我们规定$E$上联络的联络1-形式为
+
 $$
 \omega_E = \rho_*(s^*\omega) \in \Omega^1(U, \mathrm{End}(V))
 $$
+
 其中$\rho_*: \mathfrak{g} \rightarrow \mathrm{End}(V)$是由$\rho$定义的前推。
 
 我们可以进一步写出这个联络的曲率的局部表示：$\Omega_E = \rho_*(s^*\Omega)$.
@@ -332,31 +384,41 @@ $$
 > Assume that $E = P \times_{\rho} \mathbb{K}^r$.
 >
 > Since $P$ is locally trivial, we can choose a open neighborhood $U \subseteq X$ such that there is a section $s: U \rightarrow P$. The section $s$ yields a local trivialization $\Phi: E|_U \rightarrow U \times \mathbb{K}^r$ whose inverse is
+>
 > $$
 > \Phi^{-1}: \big(x, (y^1, \dots, y^r)\big) \longmapsto [s(x), (y^1, \dots, y^r)]
 > $$
 >
 > For a curve $\gamma: [0, 1] \rightarrow U$ with $\gamma(0) = x$ and $\dot{\gamma}(0) = u$, its horizontal lift $\tilde{\gamma}$ is of the form:
+>
 > $$
 > \tilde{\gamma}(t) = s(\gamma(t)) \cdot g(t)
 > $$
+>
 > where $g: [0, 1] \rightarrow G$ is smooth. Without loss of generality, we assume that $g(0) = e$. Since $\tilde{\gamma}$ is horizontal, we have
+>
 > $$
 > \begin{aligned}
 > 0 = \omega(\dot{\tilde{\gamma}}(0)) & = \omega\bigl((R_{g(0)})_*ds_x(\dot{\gamma}(0)) + \Theta(\dot{g}(0))^{\sharp}_x\bigr)\\ & = \omega((R_{g(0)})_*ds_x(u)) + \Theta(\dot{g}(0))
 > \end{aligned}
 > $$
+>
 > where $\Theta$ is the Maurer-Cartan form on $G$.
 >
 > Note that $g(0) = e$, so we have:
+>
 > $$
 > \dot{g}(0) = - (s^*\omega)(u)
 > $$
+>
 > The curve $\tilde{\gamma}$ induces the parallel transport
+>
 > $$
 > \tau^{E, \omega}_{\gamma|_{[0, t]}}: [s(x), \vec{y}] = [\tilde{\gamma}(0), \vec{y}] \longmapsto [\tilde{\gamma}(t), \vec{y}] = [s(\gamma(t)), \rho\bigl(g(t)\bigr)\vec{y}]
 > $$
+>
 > So for $\psi \in \Gamma(E|_U), \psi_{x'} = [x', \vec{y}(x')]$ we have
+>
 > $$
 > \begin{aligned}
 > \nabla^{\omega}_u \psi
@@ -365,7 +427,9 @@ $$
 > & = [s(x), - \bigl(\rho_*\dot{g}(0)\bigr)\cdot \vec{y}(0) + \rho(g(0)) \cdot \frac{d}{dt}\vec{y}(0)]
 > \end{aligned}
 > $$
+>
 > We already know that $g(0) = e$ and $\dot{g}(0) = - (s^*\omega) (u)$, so we have:
+>
 > $$
 > \begin{aligned}
 > \nabla^{\omega}_u \psi & = [s(x), \rho_*(s^*\omega(u)) \cdot \vec{y} + \frac{d}{dt}\vec{y}(0)] \\

@@ -32,8 +32,7 @@ $$
 更进一步，我们希望这个映射能够保持一些运算，使得我们可以从经典力学的方程直接得到量子力学的方程。比如，我们希望：
 
 * $$\mathscr{Q}$$是实线性的。
-* $$[\hat{u}, \hat{v}] = i \hbar \widehat{\{u, v\}}$
-
+* $$[\hat{u}, \hat{v}] = i \hbar \widehat{\{u, v\}}$$
 这里$$[\hat{u}, \hat{v}]:=\hat{u}\hat{v}-\hat{v}\hat{u}$$被叫做对易子或者交换子，$$\{\cdot, \cdot\}$$是哈密顿力学里的[Poisson括号](https://en.wikipedia.org/wiki/Poisson_bracket)。
 
 举个例子，在一维的系统里，我们考虑位置$$x$$和动量$$p$$量子化。我们已经知道：

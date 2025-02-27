@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Northern Weekdays # blog_name will be displayed in your blog page
-blog_description: A place for posting my notes and some (math-irrelated) ideas. Some posts might be in Chinese. The name of the blog comes from an well-known newspaper <i>Southern Weekly</i> in China.
+blog_description: A place for posting my notes and some (math-irrelated) ideas. Some posts might be in Chinese. The name of the blog comes from a well-known newspaper <i>Southern Weekly</i> in China.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

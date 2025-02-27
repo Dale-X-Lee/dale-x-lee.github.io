@@ -252,7 +252,9 @@ $$
 >
 > 使得对任意的$$g \in G$$和$$u \in \mathfrak{g}$$，有
 >
-> * $$\omega(X_u) = u$$> * $$g^*\omega = \mathrm{Ad}_{g^{-1}}\circ \omega$$
+> * $$\omega(X_u) = u$$
+> * $$g^*\omega = \mathrm{Ad}_{g^{-1}}\circ \omega$$
+
 在大部分时候，这一定义是更加常用的，因为$$\omega$$可以方便地参与到许多的运算中，而投影$$\mathcal{P}$$不能。比如类似向量丛的情形，我们可以用联络1-形式轻松地写出联络的曲率：
 
 $$

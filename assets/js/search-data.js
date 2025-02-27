@@ -56,7 +56,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/Deduction-of-Morse-Inequality-Perfect-Morse-Function-and-Decomposition-into-Derict-Sum%E7%9B%B4%E5%92%8C%E5%88%86%E8%A7%A3/";
+          window.location.href = "/blog/2024/Deduction-of-Morse-Inequality-Perfect-Morse-Function-and-Decomposition-into-Derict-Sum/";
         
       },
     },{id: "post-simplex-decomposition-of-product-of-singular-simplexes-in-chinese",

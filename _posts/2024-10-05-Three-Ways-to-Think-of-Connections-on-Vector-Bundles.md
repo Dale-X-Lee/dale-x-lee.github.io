@@ -119,13 +119,13 @@ $$
 这里投影的选择不是唯一确定的，我们没有一个自然地方式将$$TE$$投影到$$E$$，因此我们需要在$$E$$中每一点$$\xi$$处指定一个投影
 
 $$
-\mathcal{P}_\xi: T_\xi E \rightarrow \ker (\mathrm{D}\pi|_{\xi}: T_\xi E \rightarrow T_{\pi(\xi)}X ) \cong E_{\pi(\xi)}
+\mathcal{P}_\xi: T_\xi E \rightarrow \ker (\mathrm{D}\pi\vert _{\xi}: T_\xi E \rightarrow T_{\pi(\xi)}X ) \cong E_{\pi(\xi)}
 $$
 
 这时候，我们的协变导数可以写成：
 
 $$
-(\nabla \xi)|_x = d_{\xi_x}^{-1} \circ \mathcal{P}_{\xi_x}\big((D\xi)|_x\big)
+(\nabla \xi)\vert _x = d_{\xi_x}^{-1} \circ \mathcal{P}_{\xi_x}\big((D\xi)\vert _x\big)
 $$
 
 这里$$d_{\xi_x}: E_{x} \rightarrow T_{\xi_x}(E_{x})$$是由$$E_{x}$$的线性结构得到的自然同构，也就是将$$0$$处的切空间平移到$$\xi$$处之后得到的同构。
@@ -230,7 +230,7 @@ $$
 $$
 \begin{aligned}
     d_p: \mathfrak{g} & \xrightarrow{\cong} T_p(P_x) \\
-    u & \longmapsto X_u=\frac{\mathrm{d}}{\mathrm{d}t}\bigg|_{t = 0}p\cdot\exp(tu)\\
+    u & \longmapsto X_u=\frac{\mathrm{d}}{\mathrm{d}t}\bigg\vert _{t = 0}p\cdot\exp(tu)\\
 \end{aligned}
 $$
 
@@ -360,7 +360,7 @@ $$
 
 $$
 \begin{matrix}
-    \varphi: & E|_{U} & \longrightarrow & U \times V \\
+    \varphi: & E\vert _{U} & \longrightarrow & U \times V \\
     & [(s(x), v)] & \longmapsto & (x, v)
 \end{matrix}
 $$
@@ -380,7 +380,7 @@ $$
 这里附上用平行移动计算配丛上联络1-形式的过程，其中$$P \rightarrow X$$是主丛：
 > Assume that $$E = P \times_{\rho} \mathbb{K}^r$$.
 >
-> Since $$P$$ is locally trivial, we can choose a open neighborhood $$U \subseteq X$$ such that there is a section $$s: U \rightarrow P$$. The section $$s$$ yields a local trivialization $$\Phi: E|_U \rightarrow U \times \mathbb{K}^r$$ whose inverse is
+> Since $$P$$ is locally trivial, we can choose a open neighborhood $$U \subseteq X$$ such that there is a section $$s: U \rightarrow P$$. The section $$s$$ yields a local trivialization $$\Phi: E\vert _U \rightarrow U \times \mathbb{K}^r$$ whose inverse is
 >
 > $$
 > \Phi^{-1}: \big(x, (y^1, \dots, y^r)\big) \longmapsto [s(x), (y^1, \dots, y^r)]
@@ -411,15 +411,15 @@ $$
 > The curve $$\tilde{\gamma}$$ induces the parallel transport
 >
 > $$
-> \tau^{E, \omega}_{\gamma|_{[0, t]}}: [s(x), \vec{y}] = [\tilde{\gamma}(0), \vec{y}] \longmapsto [\tilde{\gamma}(t), \vec{y}] = [s(\gamma(t)), \rho\bigl(g(t)\bigr)\vec{y}]
+> \tau^{E, \omega}_{\gamma\vert _{[0, t]}}: [s(x), \vec{y}] = [\tilde{\gamma}(0), \vec{y}] \longmapsto [\tilde{\gamma}(t), \vec{y}] = [s(\gamma(t)), \rho\bigl(g(t)\bigr)\vec{y}]
 > $$
 >
-> So for $$\psi \in \Gamma(E|_U), \psi_{x'} = [x', \vec{y}(x')]$$ we have
+> So for $$\psi \in \Gamma(E\vert _U), \psi_{x'} = [x', \vec{y}(x')]$$ we have
 >
 > $$
 > \begin{aligned}
 > \nabla^{\omega}_u \psi
-> & = \frac{d}{dt}\bigg\vert_{t=0} \left(\tau^{E, \omega}_{\gamma|_{[0, t]}}\right)^{-1}(\psi_{\gamma(t)}) \\
+> & = \frac{d}{dt}\bigg\vert_{t=0} \left(\tau^{E, \omega}_{\gamma\vert _{[0, t]}}\right)^{-1}(\psi_{\gamma(t)}) \\
 > & = \frac{d}{dt}\bigg\vert_{t=0} [s(x), \rho\bigl(g(t)^{-1}\bigr)\cdot \vec{y}(\gamma(t))]\\
 > & = [s(x), - \bigl(\rho_*\dot{g}(0)\bigr)\cdot \vec{y}(0) + \rho(g(0)) \cdot \frac{d}{dt}\vec{y}(0)]
 > \end{aligned}

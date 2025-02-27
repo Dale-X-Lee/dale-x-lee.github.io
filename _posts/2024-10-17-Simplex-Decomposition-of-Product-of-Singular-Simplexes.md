@@ -4,7 +4,7 @@ title: Simplex Decomposition of Product of Singular Simplexes(In Chinese)
 date: 2024-10-17 23:57:16
 description: Construct a concrete simplex decomposition of product of singular simplexes with an intuitive proof.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

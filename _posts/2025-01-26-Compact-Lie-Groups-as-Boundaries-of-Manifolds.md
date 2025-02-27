@@ -4,7 +4,7 @@ title: Compact Lie Groups as Boundaries of Manifolds(In Chinese)
 date: 2025-01-26 00:58:16
 description: A constructive proof that every Lie group is the boundary of certain smooth manifold.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

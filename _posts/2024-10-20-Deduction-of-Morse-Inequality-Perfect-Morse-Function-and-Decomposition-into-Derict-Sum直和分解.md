@@ -4,7 +4,7 @@ title: Deduction of Morse Inequality, Perfect Morse Function and Decomposition i
 date: 2024-10-20 14:30:16
 description: Some notes when learning Morse theory for the second time.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

@@ -4,7 +4,7 @@ title: Bounded Operators Can Not Satisfy Canonical Commutative Relation(In Chine
 date: 2024-06-11 14:05:16
 description: The proof of the fact that two bounded operators can not satisfy the C.C.R.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

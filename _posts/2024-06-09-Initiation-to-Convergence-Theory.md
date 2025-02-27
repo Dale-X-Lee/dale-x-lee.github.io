@@ -4,7 +4,7 @@ title: Initiation to Convergence Theory(In Chinese)
 date: 2024-06-09 20:49:16
 description: A very brief introduction to notions in convergence theory.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

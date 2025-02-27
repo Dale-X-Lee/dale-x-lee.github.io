@@ -4,7 +4,7 @@ title: Three Ways to Think of Connections on Vector Bundles(In Chinese)
 date: 2024-10-05 21:30:16
 description: To record three usual ways to think of connections on vecter bundles.
 tags:
-categories: sample-posts
+categories: Notes
 toc:
   beginning: true
 ---

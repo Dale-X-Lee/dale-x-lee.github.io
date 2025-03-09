@@ -15,7 +15,7 @@ The text book is [《高等数学-下册》（第三版） by Zhong Li (李忠)]
 
 My job includes conducting recitation sessions, collecting and grading assignments, proctoring the exams, and grading the exam papers.
 
-The following are supplementary materials that I delivered in the recitation session.(to be continued...)
+The supplementary materials that I delivered in the recitation session can be found in [my Git-Hub repository](https://github.com/Dale-X-Lee/Notes-on-Advanced-Mathematics).
 
 ## **Sept. 2024 - Dec. 2024: Advanced Mathematics A (I)** (as teaching assistant)
 
@@ -25,4 +25,4 @@ The text book is [《高等数学-上册》（第三版） by Zhong Li (李忠)]
 
 My job includes conducting recitation sessions, collecting and grading assignments, proctoring the exams, and grading the exam papers.
 
-The following are supplementary materials that I delivered in the recitation session.(to be continued...)
+The supplementary materials that I delivered in the recitation session can be found in [my Git-Hub repository](https://github.com/Dale-X-Lee/Notes-on-Advanced-Mathematics).

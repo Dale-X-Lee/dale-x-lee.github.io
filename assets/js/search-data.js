@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-non-existence-of-tensor-product-of-hilber-spaces",
+        },{id: "post-topological-proof-of-bézout-theorem",
+      
+        title: "Topological Proof of Bézout Theorem",
+      
+      description: "Provide a proof of Bézout&#39;s theorem (in the complex field), using intersection form of homology classes.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/assets/pdf/posts/Topological%20Proof%20of%20Bezout%20Theorem.pdf";
+        
+      },
+    },{id: "post-non-existence-of-tensor-product-of-hilber-spaces",
       
         title: "Non-existence of Tensor Product of Hilber Spaces",
       

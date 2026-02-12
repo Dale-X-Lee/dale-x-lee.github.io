@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-topological-proof-of-bézout-theorem",
+        },{id: "post-a-little-of-galois-theory-how-to-solve-equations-in-chinese",
+      
+        title: "A Little of Galois Theory- How to Solve Equations(in Chinese)",
+      
+      description: "A note on how to solve algbraic equations, following the idea of Galois. This is tending to advanced high school students with few knowledge of group theory and fied extensions.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/A-Little-of-Galois-Theory-How-to-Solve-Equations(in-Chinese)/";
+        
+      },
+    },{id: "post-topological-proof-of-bézout-theorem",
       
         title: "Topological Proof of Bézout Theorem",
       

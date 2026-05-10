@@ -173,7 +173,7 @@ $$
 \mathrm{d}\langle s_{1},s_{2}\rangle = \langle \nabla s_{1},s_{2} \rangle + \langle s_{1},\nabla s_{2}\rangle.
 $$
 
-在选取了一个 $$U$$ 上($$U\subseteq M$$)的非退化截面 $$s_{0}$$ 之后，任意一个 $$U$$ 上的光滑截面都可以被表示为 $$f \cdot s_{0}$$ 的形式，进而可以算出
+在选取了一个 $$U$$ 上($$U\subseteq M$$)的非退化单位截面 $$s_{0}$$ 之后，任意一个 $$U$$ 上的光滑截面都可以被表示为 $$f \cdot s_{0}$$ 的形式，进而可以算出
 
 $$
 \nabla (f\cdot s_{0}) = \mathrm{d}f \otimes s - f\cdot \left(i\mathcal{A}^{\nabla}\otimes s_{0}\right)

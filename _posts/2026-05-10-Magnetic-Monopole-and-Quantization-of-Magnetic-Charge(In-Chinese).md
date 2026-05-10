@@ -125,7 +125,7 @@ $$
 $$
 \begin{aligned}
  q_{m} & = \frac{i\hbar c}{e}\int_{S^{1}} u^{-1}\nabla u \cdot \mathrm{d}\boldsymbol{l} \\
- & = \frac{i\hbar c}{4\pi e}\int_{\gamma(t)=(\cos t,\sin t)} u^{-1}(\gamma(t)) \nabla_{\dot{\gamma(t)}} u\,\mathrm{d}t
+ & = \frac{i\hbar c}{4\pi e}\int_{\gamma(t)=(\cos t,\sin t)} u^{-1}(\gamma(t)) \nabla_{\dot{\gamma}(t)} u\,\mathrm{d}t
 \end{aligned}
 $$
 

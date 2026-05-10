@@ -62,7 +62,7 @@ $$
 (\tilde{\xi}_1, \tilde{\xi}_2, \dots, \tilde{\xi}_r) = (\xi_1, \xi_2, \dots, \xi_r)\cdot A
 $$
 
-这里的乘法是驻点的矩阵乘法。那么由标架$$\tilde{\xi}_1, \dots, \tilde{\xi}_r$$给出的联络1-形式$$\tilde{\omega}$$可以被表示为：
+这里的乘法是逐点的矩阵乘法。那么由标架$$\tilde{\xi}_1, \dots, \tilde{\xi}_r$$给出的联络1-形式$$\tilde{\omega}$$可以被表示为：
 
 $$
 \tilde{\omega} = A^{-1}\omega A + A^{-1}\mathrm{d}A

@@ -267,7 +267,7 @@ $$
 d^{*}\sum_{p\in D} c_{1}(L\big\vert_{\partial B_{p}}) = d^{*}\sum_{p\in D} q_{m} \cdot \operatorname{PD}[\partial B_{p}] = \sum_{p\in D} q_{m}\cdot \operatorname{PD}[S^{3}].
 $$
 
-这和上一个不等式结合就会得到 $$\sum_{p\in D} q_{m} = 0$$，也就是总的磁荷一定为0.
+这和上一个等式结合就会得到 $$\sum_{p\in D} q_{m} = 0$$，也就是总的磁荷一定为0.
 
 除了得到磁荷的性质之外，我们也能从上面的代数拓扑方法中复原出 Dirac 弦。办法是考虑 $$L$$ 的陈类 $$c_{1}(L)$$ 的Poincaré-Lefschetz 对偶
 
@@ -289,7 +289,7 @@ $$
 [\mathcal{F}] = c_{1}(L\big\vert_{M})=0\in H^{2}(M)\cong H_{1}(S^{3},\bigcup_{j}\gamma_{j})
 $$
 
-换言之，电磁张量 $$\mathcal{F}$$ 在 $$M$$ 上是一个恰当形式。这意味着，在去掉所有 $$\gamma_{j}$$ 之后我们总能定义磁矢势 $$\boldsymbol{A}$$.换言之，由陈类定义的曲线 $$\bigcup_{1\leqslant j\leqslant l}\gamma_{j}$$ 恰好是 Dirac 弦。
+换言之，电磁张量 $$\mathcal{F}$$ 在 $$M$$ 上是一个恰当形式。这意味着，在去掉所有 $$\gamma_{j}$$ 之后我们总能定义磁矢势 $$\boldsymbol{A}$$. 所以由陈类定义的曲线 $$\bigcup_{1\leqslant j\leqslant l}\gamma_{j}$$ 恰好是 Dirac 弦。
 
 ### 一个类似的例子
 

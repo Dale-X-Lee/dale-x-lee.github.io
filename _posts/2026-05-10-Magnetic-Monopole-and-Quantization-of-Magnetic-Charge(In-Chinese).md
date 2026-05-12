@@ -94,7 +94,7 @@ $$
 \left\vert \psi^{N}(\boldsymbol{r},t)\right\vert = \left\vert \psi^{S}(\boldsymbol{r},t)\right\vert , \quad \forall \boldsymbol{r}\in D_{N}\cap D_{S}.
 $$
 
-这样我们可以假设这两个波函数只差一个相位[^注1]，即
+这样我们可以假设这两个波函数只差一个相位。虽然仅在 $$\psi^{N}$$ 始终非零时才可以这样假设。但我们可以只考虑那些在 $$D_{N}\cap D_{S}$$ 上概率密度处处非零的粒子（甚至只需要粒子在赤道附近的概率密度处处非零就足够了）。我们假设
 
 $$
 \psi^{S}(\boldsymbol{r},t) = u(\boldsymbol{r},t)\cdot\psi^{N}(\boldsymbol{r},t),\quad \vert u(\boldsymbol{r},t)\vert \equiv 1.
@@ -238,7 +238,7 @@ $$
 
 这里 $$\operatorname{PD}$$ 表示 Poincaré 对偶。
 
-基于上面的解释，我们会先展示，在包括了无穷远处的假想磁单极子之后，所有磁荷的和必须是 $$0$$.[^注2]
+基于上面的解释，我们会先展示，在包括了无穷远处的假想磁单极子之后，所有磁荷的和必须是 $$0$$. 这个结论看起来是无意义的，因为我们可以任意指定假想磁荷的值。但在其他情景里（比如三维定向闭流形上的磁单极子），我们得到严格意义上的“磁荷成对”出现。
 
 说明这件事的办法是利用 Mayer-Vietoris 长正合列( M-V 正合列)。我们将球面 $$S^{3}$$ 分成两部分：挖去的小球 $$\bigcup_{p\in D} B_{p}$$ 和剩下的部分，然后考虑这种剖分给出的 M-V 正合列：
 
@@ -261,7 +261,13 @@ $$
 d^{*}\sum_{p\in D} c_{1}(L\big\vert_{\partial B_{p}}) = d^{*}i^{*} c_{1}(L) = 0.
 $$
 
-另一方面，按照 $$d^{*}$$ 的定义，可以证明：[^注3]
+另一方面，考虑由嵌入映射
+
+$$
+(S^{3}\setminus \bigcup_{p\in D} B_{p}, \bigcup_{p\in D}B_{p})\rightarrow (S^{3}\setminus B_{p'},\bigcup_{p\in D} B_{p})
+$$
+
+诱导的长正合列之间的映射，可以证明：
 
 $$
 d^{*}\sum_{p\in D} c_{1}(L\big\vert_{\partial B_{p}}) = d^{*}\sum_{p\in D} q_{m} \cdot \operatorname{PD}[\partial B_{p}] = \sum_{p\in D} q_{m}\cdot \operatorname{PD}[S^{3}].
@@ -283,7 +289,7 @@ $$
 
 此外我们还能取 $$\gamma_{j}$$ 使得它们既不自交，也互不相交。
 
-这时我们可以去掉所有 $$\gamma_{j}$$，考虑区域 $$M = S^{3}\setminus\bigcup_{j}\gamma_{j}$$. 而利用所谓的 Alexander 对偶[^注4]可以证明：
+这时我们可以去掉所有 $$\gamma_{j}$$，考虑区域 $$M = S^{3}\setminus\bigcup_{j}\gamma_{j}$$. 而利用所谓的 Alexander 对偶（详见姜伯驹《同调论》第五章定理5.6.）可以证明：
 
 $$
 [\mathcal{F}] = c_{1}(L\big\vert_{M})=0\in H^{2}(M)\cong H_{1}(S^{3},\bigcup_{j}\gamma_{j})
@@ -341,11 +347,3 @@ $$
 - 存在若干条曲线连接能带相交点，这些曲线的同调类由 $$L$$ 的陈类确定。
 
 > **注记**：虽然理凝聚态物理和磁单极子的理论用到了相同的数学工具，但它们的物理是完全不同的。即使是物理学家有时也会混淆两个概念，读者可以参考维基百科中有关[寻找磁单极子的介绍](https://en.wikipedia.org/wiki/Magnetic_monopole#%22Monopoles%22_in_condensed-matter_systems)。
-
-[^注1]: 仅在 $$\psi^{N}$$ 始终非零时才可以这样假设。但我们可以只考虑那些在 $$D_{N}\cap D_{S}$$ 上概率密度处处非零的粒子（甚至只需要粒子在赤道附近的概率密度处处非零就足够了）。
-
-[^注2]: 这个结论看起来是无意义的，因为我们可以任意指定假想磁荷的值。但在其他情景里（比如三维定向闭流形上的磁单极子），我们得到严格意义上的“磁荷成对”出现。
-
-[^注3]: 例如考虑由嵌入映射 $$(S^{3}\setminus \bigcup_{p\in D} B_{p}, \bigcup_{p\in D}B_{p})\rightarrow (S^{3}\setminus B_{p'},\bigcup_{p\in D} B_{p})$$ 诱导的长正合列之间的映射。
-
-[^注4]: 粗略来说，即 $$H^{n-q}(M-K;\mathbb{R}) \cong \left(H_{n-q}(M-K;\mathbb{R})\right)^{*} \cong \left(H^{q}(M,K;\mathbb{R})\right)^{*}\cong H_{q}(M,K;\mathbb{R})$$. 这里我们取 $$M=S^{3}\setminus D,K = \bigcup_{j}\gamma_{j}$$. 详见姜伯驹《同调论》第五章定理5.6.

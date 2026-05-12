@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-little-of-galois-theory-how-to-solve-equations-in-chinese",
+        },{id: "post-magnetic-monopole-and-quantization-of-magnetic-charge-in-chinese",
+      
+        title: "Magnetic Monopole and Quantization of Magnetic Charge(In Chinese)",
+      
+      description: "We summary two ways to deduce quantization of magnetic charge, One adapted from Dirac&#39;s original idea, and another with gauge theory point of view.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/Magnetic-Monopole-and-Quantization-of-Magnetic-Charge(In-Chinese)/";
+        
+      },
+    },{id: "post-a-little-of-galois-theory-how-to-solve-equations-in-chinese",
       
         title: "A Little of Galois Theory- How to Solve Equations(in Chinese)",
       
@@ -270,6 +281,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/Initiation-to-Convergence-Theory/";
+        
+      },
+    },{id: "post-comments-on-coalgebra",
+      
+        title: "Comments on Coalgebra",
+      
+      description: "Provide some motivations and examples for the coalgebra.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Comments-on-Coalgebra/";
         
       },
     },{id: "post-quot-odd-dimensional-quot-approach-to-hamiltonian-phase-flow",

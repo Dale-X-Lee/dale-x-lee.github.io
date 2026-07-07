@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-magnetic-monopole-and-quantization-of-magnetic-charge-in-chinese",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/2026-06-25-Spin-Representation-and-Fermions/";
+        
+      },
+    },{id: "post-magnetic-monopole-and-quantization-of-magnetic-charge-in-chinese",
       
         title: "Magnetic Monopole and Quantization of Magnetic Charge(In Chinese)",
       

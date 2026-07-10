@@ -2,7 +2,7 @@
 layout: post
 title: First Integrals of Hamiltonian Systems and Reduction of Dimension(In Chinese)
 date: 2025-08-22 01:49:50
-description: A geometric way to reduce the dimenson of a Hamiltonian system with a first integral, together with some explanation on proof of Darboux's theorem.
+description: A geometric way to reduce the dimension of a Hamiltonian system with a first integral, together with some explanation on proof of Darboux's theorem.
 tags:
   
 categories: Notes

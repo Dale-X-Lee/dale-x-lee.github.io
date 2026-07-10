@@ -54,9 +54,9 @@ ninja.data = [{
       },
     },{id: "post-a-little-of-galois-theory-how-to-solve-equations-in-chinese",
       
-        title: "A Little of Galois Theory- How to Solve Equations(in Chinese)",
+        title: "A Little of Galois Theory-How to Solve Equations(In Chinese)",
       
-      description: "A note on how to solve algbraic equations, following the idea of Galois. This is tending to advanced high school students with few knowledge of group theory and fied extensions.",
+      description: "A note on how to solve algebraic equations, following the idea of Galois. This is tending to advanced high school students with few knowledge of group theory and field extensions.",
       section: "Posts",
       handler: () => {
         
@@ -122,7 +122,7 @@ ninja.data = [{
       
         title: "First Integrals of Hamiltonian Systems and Reduction of Dimension(In Chinese)",
       
-      description: "A geometric way to reduce the dimenson of a Hamiltonian system with a first integral, together with some explanation on proof of Darboux&#39;s theorem.",
+      description: "A geometric way to reduce the dimension of a Hamiltonian system with a first integral, together with some explanation on proof of Darboux&#39;s theorem.",
       section: "Posts",
       handler: () => {
         
@@ -326,6 +326,11 @@ ninja.data = [{
           description: "From Feb. 2025 to Jun. 2025(as teaching assistant)",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2025-spring-Advanced-Mathematics-A-II/";
+            },},{id: "teaching-advanced-mathematics-a-ii",
+          title: 'Advanced Mathematics A(II)',
+          description: "From Mar. 2026 to Jun. 2026(as teaching assistant)",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2026-spring-Advanced-Mathematics-A-II/";
             },},{
         id: 'social-email',
         title: 'email',

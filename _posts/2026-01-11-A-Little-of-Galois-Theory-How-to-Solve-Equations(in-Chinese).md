@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Little of Galois Theory-How to Solve Equations(in Chinese)
-date: 2026-07-11 06:49:06
+title: A Little of Galois Theory-How to Solve Equations(In Chinese)
+date: 2026-01-11 06:49:06
 description: A note on how to solve algebraic equations, following the idea of Galois. This is tending to advanced high school students with few knowledge of group theory and field extensions.
 tags:
   

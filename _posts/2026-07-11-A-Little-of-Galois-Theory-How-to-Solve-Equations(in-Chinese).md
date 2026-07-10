@@ -7,7 +7,7 @@ tags:
   
 categories: Notes
 toc:
-  beginning: true
+  sidebar: left
 ---
 
 这篇笔记受到Kline的《古今数学思想》和[arxiv里一篇文章](https://arxiv.org/abs/1108.4593)的启发，试图用一种不同于教科书且相对初等的办法引入伽罗瓦理论。这篇笔记的一个目的是提供研究伽罗瓦理论的动机，因此内容和教科书相差很大，对系统学习伽罗瓦理论未必有帮助。
